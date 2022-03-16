@@ -1,0 +1,23 @@
+name: "YOURNAME"                                # CHANGE HERE 
+output_dir: "."
+navbar:
+  title: "YOURNAME"                             # CHANGE HERE 
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-user 
+      href: about.html
+  right:
+    - text: "Contact me"
+      icon: fa-envelope-o
+      href: mailto:george.savva@quadram.ac.uk                    # CHANGE HERE 
+    - text: "GitHub"
+      icon: fa-github
+      href: https://github.com/georgemsavva       # CHANGE HERE 
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
